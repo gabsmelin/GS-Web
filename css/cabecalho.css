@@ -18,10 +18,9 @@
     font-family: 'Montserrat-100', sans-serif;
     padding: 15px;
 }
-.cabecalho a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.2em;
-    font-family: 'Montserrat-100', sans-serif;
-    padding: 15px;
+.cabecalho span {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #00FF7F;
 }
