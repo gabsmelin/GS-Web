@@ -1,0 +1,77 @@
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap     ;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
+    margin-top: -3%;
+} 
+.cabecalho img {
+    width: 50%;
+    height: 50%;
+}
+.cabecalho a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-family: 'Montserrat-100', sans-serif;
+    padding: 15px;
+}
+.cabecalho span {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #00FF7F;
+}
+
+
+
+@media screen and (max-width: 1335px) {
+    .cabecalho a {
+        font-size: 1em;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1145px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0% 0% 10% 0%;
+        padding: 0%;
+    }
+
+    .cabecalho a {
+        font-size: 1.1em;
+        padding: 8px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .cabecalho a {
+        font-size: 0.9em;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .cabecalho a {
+        font-size: 0.8em;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .cabecalho div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .cabecalho a {
+        font-size: 1.1em;
+        padding: 8px;
+    }
+}
