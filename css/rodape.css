@@ -1,0 +1,73 @@
+.rodape {
+    display: flex;
+    flex-direction: row;
+    background-color: #00FF7F;
+    min-width: 100%;
+
+    bottom: 0;
+    position: relative;
+    width: 90%;
+    justify-content: space-between;
+
+    color: #FFF;
+    font-family: 'Montserrat-100', sans-serif;
+    padding: 4% 8%;
+}
+.rodape div {
+    display: flex;
+    flex-direction: column;
+}
+.rodape h1 {
+    margin: 20px 0px;
+}
+.rodape p {
+    font-size: 12px;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .rodape div {
+        width: 50%;
+        margin-left: 5%;
+    }
+    .rodape p {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 850px) {
+    .rodape p {
+        font-size: 10px;
+    }
+    .rodape h1 {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .rodape div {
+        width: 10   0%;
+        margin: 0px;
+    }
+    .rodape p {
+        font-size: 08px;
+    }
+    .rodape h1 {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rodape div {
+        width: 100%;
+        align-items: center;
+    }
+    .rodape p {
+        text-align: center;
+    }
+
+}
