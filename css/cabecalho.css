@@ -7,3 +7,14 @@
     padding: 0% 5%;
     margin-top: -3%;
 } 
+.cabecalho img {
+    width: 50%;
+    height: 50%;
+}
+.cabecalho a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-family: 'Montserrat-100', sans-serif;
+    padding: 15px;
+}
